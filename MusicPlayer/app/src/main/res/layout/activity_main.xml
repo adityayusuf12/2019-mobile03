@@ -11,6 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#424E4E"
+        android:textColor="#ECEEE8"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -131,22 +132,26 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="139dp"
-        android:layout_height="25dp"
+        android:layout_width="131dp"
+        android:layout_height="23dp"
+        android:fontFamily="@font/lato_regular"
         android:text="Earth Wind And Fire"
+        android:textColor="#F8EFEF"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintHorizontal_bias="0.514"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.75" />
+        app:layout_constraintVertical_bias="0.533" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="44dp"
+        android:layout_marginBottom="48dp"
+        android:fontFamily="@font/lato_regular"
         android:text="September"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/imageView6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
